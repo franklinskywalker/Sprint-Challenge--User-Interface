@@ -68,27 +68,30 @@ p {
 
 
 
-
+a{
+	text-decoration: none;
+}
 .navigation-container{
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
+	margin-bottom: 20px;
 }
 .navigation{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	border: 1px dotted black;
 	width: 80%;
 }
+.navigation a{
+	color: black;
+}
 #headlogo{
-	border: 1px dotted black;
 	width: 200px;
 }
 .Hero{
 	display: flex;
-	border: 1px dotted black;
 	width: 100%;
 	height: 150px;
 }
@@ -140,76 +143,105 @@ p {
     align-items: center;
     justify-content: center;
 }
-.floor-container{
+.Hero{
+	margin-bottom: 15px;
 
 }
+.top-floor-container{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px dotted black;
+}
+.floor-container{
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+
 
 /*about main section */
 .true-main{
-	border: 1px dotted red;
+
 	flex-direction: column;
 	align-content: space-between;
 }
 .main-section{
-	border: 1px dotted black;
+
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content:space-between;
+	margin-bottom: 20px;
+	margin-top: 20px;
 
 
 }
 .about-wrap{
   width: 550px;
 	height: 350px;
-	border: 2px dotted green;
-	border-right: 1px dotted black;
+
+
 	display: flex;
-	flex-direction: column;
+	flex-direction:column;
 	align-items: center;
 
 }
 .about-wrap img{
-	border: 1px dotted blue;
+
 	max-width: 100%
 }
 .how-we-work{
 	width: 550px;
 	height: 350px;
 
-	border: 1px dotted black;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 
+
 }
 .how-we-work img{
-	border: 1px dotted blue;
+
 	max-width: 100%;
 }
 .main-section-two{
+
 	display: flex;
 	flex-diection: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .place-we-work{
-	border: 1px dotted black;
+	width: 550px;
+	height: 350px;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .place-we-work img{
-	border: 1px dotted blue;
+
 	max-width: 100%;
 }
 .collaborative{
-	border: 1px dotted black;
+	width: 550px;
+	height: 350px;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .collaborative img{
-	border: 1px dotted blue;
+
 	max-width: 100%;
+}
+.learn-more {
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	padding: 5px;
 }
 /*end about main section*/
 
