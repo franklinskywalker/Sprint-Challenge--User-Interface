@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,6 +66,35 @@ p {
     line-height: 1.4;
 }
 
+
+
+
+.navigation-container{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+.navigation{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px dotted black;
+	width: 80%;
+}
+#headlogo{
+	border: 1px dotted black;
+	width: 200px;
+}
+.Hero{
+	display: flex;
+	border: 1px dotted black;
+	width: 100%;
+	height: 150px;
+}
+#thumbnail{
+	max-width: 100%
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -82,7 +111,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,6 +141,39 @@ p {
     justify-content: center;
 }
 
+/* box color */
+#box-one{
+	background-color: #0aaba8;
+}
+#box-two{
+	background-color: #bfb93f;
+}
+#box-three{
+background-color: #7193b0;
+}
+#box-four{
+background-color: #e39032;
+}
+#box-five{
+background-color: #ed695c;
+}
+#box-six{
+ background-color: #04b02c;
+}
+#box-seven{
+ background-color: #7a24bd;
+}
+#box-eight{
+ background-color: #f5b0b0;
+}
+#box-nine{
+	background-color: #e7c9f5;
+
+}
+#box-ten{
+ background-color: #10cfe8;
+}
+/*end box color*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
